@@ -1,0 +1,17 @@
+[package]
+name = "random-u128"
+version = "0.1.0"
+edition = "2021"
+description = "generates a random unsigned 128-bit integer for UUIDs"
+repository = "https://github.com/Squidroot2/random_u128"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+
+[dependencies]
+rand = "0.8.5"
