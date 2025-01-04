@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "generates a random unsigned 128-bit integer for UUIDs"
 repository = "https://github.com/Squidroot2/random_u128"
-license = "MIT"
+license = "MIT-0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
